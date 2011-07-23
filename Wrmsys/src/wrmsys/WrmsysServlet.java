@@ -14,7 +14,8 @@ public class WrmsysServlet extends HttpServlet {
 	    User user = userService.getCurrentUser();
 	    if (user != null) {
 	    	resp.setContentType("text/html");
-	    	resp.getWriter().println("<html><body>Hello " + user.getNickname() + "! Welcome to WRMS main page! You can <a href='"+ userService.createLogoutURL("/") +"'>sign out</a></body></html>");
+	    	resp.getWriter().println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">");
+	    	resp.getWriter().println("<html><head><title>WRMSYS</title><link type=\"text/css\" rel=\"stylesheet\" href=\"/stylesheets/Wrmsys.css\"></head><body><h1>Hello " + user.getNickname() + ", Welcome to WRMS!</h1><p>You can <a href='"+ userService.createLogoutURL("/") +"'>sign out</a></p></body></html>");
 	    }
 	    else {
 	    	resp.sendRedirect(userService.createLoginURL(req.getRequestURI()));

@@ -1,10 +1,21 @@
-/** Example rules used by the template application (remove for your app) */
+/** Styles */
 h1 {
   font-size: 2em;
   font-weight: bold;
   color: #777777;
   margin: 40px 0px 70px;
   text-align: center;
+}
+
+p {
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+body {
+  background-image: url('/images/wrmsys.png');
+  background-repeat: no-repeat;
 }
 
 .sendButton {
