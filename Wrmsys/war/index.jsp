@@ -24,7 +24,7 @@
 %>
 	<meta http-equiv="REFRESH" content="0;url=/wrmsys">
 <% } %>
-    <link type="text/css" rel="stylesheet" href="/stylesheets/main.csgs" />
+    <link type="text/css" rel="stylesheet" href="/stylesheets/Wrmsys.css" />
     <title>Welcome to WRMSYS!</title>
   </head>
 
