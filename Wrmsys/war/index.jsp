@@ -31,7 +31,7 @@
   <body>
 
 <h1>Welcome to WRMSYS!</h1>
-
+<div position="relative><img src="/images/wrmsys.png"></div>
 <%
     /**
     	UserService userService = UserServiceFactory.getUserService();
